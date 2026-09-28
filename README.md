@@ -14,6 +14,8 @@ open question + comparison rule → multi-party source submissions
 
 CONVERGENT means at least two comparable, known directions match; DISPUTED means comparable directions conflict. It does **not** mean the underlying scientific claim is true. Two documents on different hosts are not necessarily independent publishers; consumers must inspect provenance. Unavailable, mismatched or ambiguous sources do not count as eligible. The state is an evolving panel record, not a one-time certificate.
 
+`examples/study-a.txt` and `examples/study-b.txt` are synthetic trial fixtures. They may be served from different HTTPS hosts to exercise the mechanism, but remain one publisher's test data and must not be presented as independent scientific replications.
+
 ## API
 
 `open_panel(panel_id, question, comparison_rule)`, `submit_study(panel_id, study_id, source_url, source_hash)`, `assess(panel_id, assessment_id)`, `get_panel`, `get_study`, `get_snapshot`.

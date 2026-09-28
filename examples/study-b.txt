@@ -1,0 +1,1 @@
+Synthetic Study B, trial registration S-B. Question: Does intervention X improve recovery in adults? Randomized 120 adults, 60 treatment and 60 control. Method: same intervention X; endpoint is recovery at 30 days. Measured recovery: treatment 43/60, control 31/60. Direction: positive. This is a demonstration fixture, not a published clinical result.
